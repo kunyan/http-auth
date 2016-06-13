@@ -35,6 +35,10 @@ module.exports = {
     koa: function (auth) {
         return require('./server/koa').middleware(auth);
     },
+    // Koa2.
+    koa2: function (auth) {
+        return require('./server/koa').middleware(auth);
+    },
 
     // Passport.
     passport: function (auth) {
